@@ -60,4 +60,33 @@
     padding-left: 90px;
     margin-top: 120px;   
   }
+  
+}
+
+@media (max-width:900px) 
+{
+  .project-section .project-container{
+    gap: 6rem;
+}
+
+.project-container .project-card{
+    width: 90%;
+    height: 45rem;
+    margin: 0 auto;
+}
+
+.project-content h2{
+    font-size: 2rem;
+}
+
+.project-card .project-content{
+    max-width: 90%;
+}
+
+
+.project-card .project-number{
+    display: none;
+}
+
+  
 }

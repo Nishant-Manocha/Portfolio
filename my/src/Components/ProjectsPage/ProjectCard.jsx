@@ -6,7 +6,7 @@ const ProjectCard = ({id,hoverId,title,desc,githubLink,webLink,ProjectImage,icon
   return (
     
     <div className={`project-card-overlay  ${id%2 ===0 ? "project-card-overlay-right" : "project-card-overlay-left"}` } >
-        <div className="project-card" style={{backgroundImage:`URL( ${ProjectImage})`}}>
+        <div className="project-card" style={{backgroundImage:`URL( ${ProjectImage})`, objectFit:"cover"}}>
         <div className={`project-number  ${id%2 ===0 ? "project-number-right" : "project-number-left"}`}>
             {hoverId}
         </div>

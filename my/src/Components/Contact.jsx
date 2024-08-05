@@ -4,6 +4,7 @@ import { IoCallSharp, IoLocation } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import '../index.css'
+
 const Contact = () => 
 {
   const [formData, setFormData] = useState({
@@ -28,30 +29,30 @@ const Contact = () =>
       <h2>Contact Us</h2>
 
       <div className='contact-heading'>
-        <h5>Have You Any Questions?</h5>
+        <h5>Have Any Queries?</h5>
         <h6>I am at Your Service</h6>
       </div>
 
       <div className="contact-info">
         <div className="contact-item">
           <i><IoCallSharp /></i>
-          <h5>Call Us Now</h5>
-          <span>+123 456 7890</span>
+          <h5>Call</h5>
+          <span>9877668028</span>
         </div>
         <div className="contact-item">
           <i><IoIosMail /></i>
-          <h5>Email Us</h5>
+          <h5>Email </h5>
           <span>nishantmanocha05@gmail.com</span>
         </div>
         <div className="contact-item">
           <i><IoLocation /></i>
-          <h5>Find Us</h5>
+          <h5>Find Me</h5>
           <span>Chugh Street Malkhana Mohala Fazilka,India</span>
         </div>
       </div>
 
       <div className='contact-heading'>
-        <h5>Send me an Message</h5>
+        <h5>Send me a Message</h5>
         <h6>I am very Responsive to Messages</h6>
       </div>
 

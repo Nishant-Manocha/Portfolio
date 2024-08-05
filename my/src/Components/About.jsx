@@ -17,12 +17,12 @@ const About = () => {
         </div>
 
         <div className="about-btn">
-            <div className="border-btn"> 
-              <Link to={"/contact"} id='border-btn-color' >Download CV</Link>
+            <div > 
+              <Link to={"/contact"} className="border-btn" >Download CV</Link>
             </div>
 
-            <div className="btn"> 
-              <Link to={"/contact"} id='btn-color' >Hire Me</Link>
+            <div > 
+              <Link to={"/contact"} className="btn" >Hire Me</Link>
             </div>
         </div>
 

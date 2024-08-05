@@ -42,7 +42,7 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(35vw,1fr));
     grid-template-rows: auto;
     column-gap: 40px;
     row-gap: 40px;

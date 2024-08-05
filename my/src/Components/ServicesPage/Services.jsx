@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Services.css';
+import '../../global.css';
 import { ServicesData } from '../../data/Services';
 import Modal from './Modal';
 
@@ -17,7 +18,7 @@ const Services = () =>
   }
 
   return (
-    <div className={`Services-container ${modal ? "active-modal" : ""}`}
+    <div className={`about-container ${modal ? "active-modal" : ""}`}
     onClick={() => modal && setModal(!modal)}>
 
       <div className="Services-content">

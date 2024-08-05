@@ -45,18 +45,8 @@
 {
     .skills-content
     {
-        gap: 1.2rem;
-    }
-    .skills
-    {
-        gap: 2rem;
-    }
-}
-@media (max-width:992px) 
-{
-    .skills-content
-    {
         flex-direction: column;
         margin-right: 20px;
     }
+
 }

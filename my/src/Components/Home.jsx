@@ -36,8 +36,8 @@ const Home = () => {
               </div>
 
             <div className='description'>I am a passionate and versatile developer with expertise in MERN stack development, Selenium automation, and web scraping. With a strong foundation in C++ and DSA, I excel in building robust and efficient software solutions.</div>
-            <div className="btn" style={{  margin: "auto"}}> 
-              <Link to={"/contact"} id='btn-color' >Hire Me</Link>
+            <div  className='btn-padding'> 
+              <Link to={"/contact"} className="btn" >Hire Me</Link>
             </div>
         </div>
         <div className="right-content">
