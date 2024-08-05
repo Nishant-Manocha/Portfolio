@@ -115,7 +115,7 @@ body {
   width: 50px;
   border: 1px solid var(--bg-black-50);
   cursor: pointer;
-  transform: translate(10px);
+  /* transform: translate(10px); */
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -253,7 +253,7 @@ body {
 {
   .body-container,.about-container,.contact-container
   {
-    padding-left: 8vmax;
+    padding-left: 4vmax;
   }
   .slide-container
   {

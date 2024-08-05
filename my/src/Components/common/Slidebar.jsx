@@ -22,7 +22,7 @@ export const Slidebar = () => {
 
   useEffect(() => {
     if (!isMobile) {
-      setIsOpen(true); // Automatically open the sidebar on larger screens
+      setIsOpen(false); // Automatically open the sidebar on larger screens
     }
   }, [isMobile]);
 
@@ -34,7 +34,7 @@ export const Slidebar = () => {
             className="nav-toggler" 
             onClick={() => setIsOpen(!isOpen)} 
             style={{ 
-              left: isOpen ? '210px' : '10px',
+              left: isOpen ? '210px' : '',
               backgroundColor: isOpen ? 'transparent' : 'var(--bg-black-100)',
               border: isOpen ? 'none' : '',
             }}

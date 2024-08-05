@@ -50,3 +50,12 @@
     }
 
 }
+@media (max-width:650px) 
+{
+    .skills
+    {
+        grid-template-columns: repeat(1,1fr);
+        margin-right: 20px;
+    }
+
+}
