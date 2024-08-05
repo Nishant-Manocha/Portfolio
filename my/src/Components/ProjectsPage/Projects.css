@@ -4,15 +4,6 @@
   height: auto;
   padding: 20px;
 }
-.portfolio-container
-{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap:60px;
-
-}
 .page-header h2
 {
   font-size: 2em;
@@ -46,6 +37,7 @@
 .project-container{
     max-width: 1200px;
     margin:0 auto;
+    margin-top: 60px;
     padding:2rem;
     display:flex;
     flex-direction:column;
@@ -57,7 +49,7 @@
 {
   .project-section
   {
-    padding-left: 90px;
+    padding-left: 6vmax;
     margin-top: 120px;   
   }
   
@@ -65,13 +57,15 @@
 
 @media (max-width:900px) 
 {
-  .project-section .project-container{
+  .project-section .project-container
+  {
     gap: 6rem;
-}
+    padding: 0;
+  }
 
 .project-container .project-card{
     width: 90%;
-    height: 45rem;
+    /* height: 45rem; */
     margin: 0 auto;
 }
 
