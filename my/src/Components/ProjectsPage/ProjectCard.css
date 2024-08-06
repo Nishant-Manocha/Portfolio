@@ -164,3 +164,36 @@
     width: 90%;
   }
 }
+
+.animate-card-right
+{
+  opacity:0;
+  animation: rightcard 1.3s ease forwards;
+}
+.animate-card-left
+{
+  opacity:0;
+  animation: leftcard 1.3s ease forwards;
+}
+@keyframes rightcard{
+  0%{
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes leftcard{
+  0%{
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  100%
+  {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

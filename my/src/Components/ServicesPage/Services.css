@@ -1,11 +1,12 @@
 .Services-container {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 .Services-content {
     width: 100%;
     padding: 20px;
+    height: auto;
 }
 
 .Services-main-heading h2 {
@@ -47,6 +48,7 @@
     column-gap: 40px;
     row-gap: 40px;
     padding: 40px;
+
 }
 
 .services-card {
@@ -59,6 +61,7 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    animation: cards 2s ease forwards;
 }
 
 .services-card:hover {
@@ -95,4 +98,17 @@
 .active-modal
 {
     overflow-y:hidden;
+}
+
+@keyframes cards 
+{
+    
+    0%{
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

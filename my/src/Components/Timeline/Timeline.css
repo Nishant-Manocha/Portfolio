@@ -56,7 +56,6 @@ margin-top: 3rem;
     color: white;
 }
 .timeline.animate::after {
-/* Animation properties */
 height: 100%; /* Animate the height from 0 to 100% */
 transition: height 4s ease;
 }

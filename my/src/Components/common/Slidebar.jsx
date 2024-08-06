@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io";
 
 export const Slidebar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1199);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 1199);
