@@ -24,7 +24,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
-  animation: hue-rotate 3s linear ;
 }
 
 ::after,
@@ -47,6 +46,7 @@ body {
   align-items: center;
   height: 100%;
   border-right: 1px solid var(--bg-black-50);
+  animation: hue-rotate 5s linear ;
 }
 .slide-content .logo {
   position: absolute;
@@ -138,16 +138,22 @@ body {
 /* Home Start */
 .content-container
 {
-    flex: 1;
-    overflow: auto;
+  flex: 1;
+  overflow: auto;
+  position: relative;
+  display: block;
 }
-.body-container
-{
+
+.body-container {
   height: 100%;
   display: flex;
   align-items: center;
   padding: 2vw;
   width: 100%;
+  background-image: url("./images/waveUpbg.png"), url("./images/waveDownbg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 30%, 100% 30%; /* Ensure the sizes match or adjust as needed */
+  background-position: top center, bottom center; /* Adjust positions if needed */
 }
 .home-content
 {
@@ -164,7 +170,7 @@ body {
   gap: 20px;
   color: var(--text-black-900);
   justify-content: center;
-  /* transition: 2s ease-in-out; */
+  animation: hue-rotate 5s linear ;
 }
 .right-content
 {

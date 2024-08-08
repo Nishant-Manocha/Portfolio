@@ -17,6 +17,9 @@ const Skills = () =>
         <h5>Technical Proficiency</h5>
 
         <div className="skills-content">
+            <div class="blob1"></div>
+            <div class="blob2"></div>
+
             <div className="skills">
                 {
                     SkillsData.map((item)=>(

@@ -43,7 +43,7 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(35vw,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(25vmax,1fr));
     grid-template-rows: auto;
     column-gap: 40px;
     row-gap: 40px;
@@ -84,6 +84,7 @@
     font-weight: 600;
     justify-content: center;
     line-height: 22px;
+    text-align: center;
 }
 .services-card img
 {
@@ -110,5 +111,19 @@
     100%{
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width:650px)  
+{
+    .Services-content
+    {
+        padding: 0;
+    }
+    .services-grid-container
+    {
+        padding: 0;
+        padding-right: 10px;
+        justify-content: start;
     }
 }

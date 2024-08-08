@@ -8,6 +8,7 @@ import MONGODB from '../images/Languages/MongoDB.svg'
 import NODEJS from '../images/Languages/NodeJs.svg'
 import ProjectOne from '../images/Project/RazorpayProject1.png'
 import ProjectTwo from '../images/Project/DiscordProject2.png'
+import ProjectThree from '../images/Project/BookStoreProject3.png'
 
 
 export const ProjectsData = [
@@ -16,8 +17,8 @@ export const ProjectsData = [
         hoverId:"01",
         title:"Razorpay Clone",
         desc:"Built a web application that closely mimicked the design of the popular Indian payment gateway, Razor Pay, using HTML & Tailwind CSS.",
-        githubLink:"#",
-        webLink:"#",
+        githubLink:"https://github.com/Nishant-Manocha/RazorpayClone",
+        webLink:"https://razorpay-clone-mu-one.vercel.app/",
         ProjectImage:ProjectOne,
         icons:[
             {
@@ -37,8 +38,8 @@ export const ProjectsData = [
         hoverId:"02",
         title:"Discord Clone",
         desc:"Built a Discord clone web app using HTML, CSS and Tailwind CSS. It's a website that has been designed to mimic the design of the popular chat and voice communication platform, Discord.",
-        githubLink:"#",
-        webLink:"#",
+        githubLink:"https://github.com/Nishant-Manocha/DiscordClone",
+        webLink:"https://discord-clone-roan-iota.vercel.app/",
         ProjectImage:ProjectTwo,
         icons:[
             {
@@ -49,6 +50,36 @@ export const ProjectsData = [
             },
             {
                 language:TAILWIND
+            },
+        ]
+
+    },
+    {
+        id:3,
+        hoverId:"03",
+        title:"Book Store",
+        desc:"This responsive college project is a comprehensive book management system. It features user-friendly Login and Sign-Up pages, allowing account creation and profile management. Users can browse, like, and download books for offline use, with a Contact Us page for inquiries and support.",
+        githubLink:"https://github.com/Nishant-Manocha/Book-Store",
+        webLink:"https://book-store-liard.vercel.app/",
+        ProjectImage:ProjectThree,
+        icons:[
+            {
+                language:REACT
+            },
+            {
+                language:CSS
+            },
+            {
+                language:TAILWIND
+            },
+            {
+                language:NODEJS
+            },
+            {
+                language:EXPRESS
+            },
+            {
+                language:MONGODB
             },
         ]
 
