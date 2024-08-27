@@ -9,6 +9,7 @@ import NODEJS from '../images/Languages/NodeJs.svg'
 import ProjectOne from '../images/Project/RazorpayProject1.png'
 import ProjectTwo from '../images/Project/DiscordProject2.png'
 import ProjectThree from '../images/Project/BookStoreProject3.png'
+import ProjectFour from '../images/Project/StudyNotion.png'
 
 
 export const ProjectsData = [
@@ -62,6 +63,36 @@ export const ProjectsData = [
         githubLink:"https://github.com/Nishant-Manocha/Book-Store",
         webLink:"https://book-store-liard.vercel.app/",
         ProjectImage:ProjectThree,
+        icons:[
+            {
+                language:REACT
+            },
+            {
+                language:CSS
+            },
+            {
+                language:TAILWIND
+            },
+            {
+                language:NODEJS
+            },
+            {
+                language:EXPRESS
+            },
+            {
+                language:MONGODB
+            },
+        ]
+
+    },
+    {
+        id:4,
+        hoverId:"04",
+        title:"Study Notion",
+        desc:"This Course Selling Platform features separate dashboards for teachers to create and manage courses, and for students to browse, purchase, and access courses, with secure token-based authentication for all users.",
+        githubLink:"https://github.com/Nishant-Manocha/Study-Notion",
+        webLink:"https://study-notion-front-one.vercel.app/",
+        ProjectImage:ProjectFour,
         icons:[
             {
                 language:REACT

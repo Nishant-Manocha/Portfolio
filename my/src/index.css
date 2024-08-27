@@ -46,7 +46,6 @@ body {
   align-items: center;
   height: 100%;
   border-right: 1px solid var(--bg-black-50);
-  animation: hue-rotate 5s linear ;
 }
 .slide-content .logo {
   position: absolute;
@@ -144,16 +143,17 @@ body {
   display: block;
 }
 
-.body-container {
+.body-container 
+{
   height: 100%;
   display: flex;
   align-items: center;
   padding: 2vw;
   width: 100%;
-  background-image: url("./images/waveUpbg.png"), url("./images/waveDownbg.png");
+  background-image: url("./images/waveDownbg.png");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 100% 30%, 100% 30%; /* Ensure the sizes match or adjust as needed */
-  background-position: top center, bottom center; /* Adjust positions if needed */
+  background-size: 100% 40%;
 }
 .home-content
 {
@@ -170,7 +170,7 @@ body {
   gap: 20px;
   color: var(--text-black-900);
   justify-content: center;
-  animation: hue-rotate 5s linear ;
+  /* animation: hue-rotate 5s linear ; */
 }
 .right-content
 {
@@ -245,6 +245,7 @@ body {
   padding: 50px;
   display: flex;
   justify-content: center;
+  margin-left:-120px;
   opacity: 0;
   animation: toright4 1s ease-in forwards 1.2s;
 }
@@ -420,12 +421,16 @@ body {
   {
     display: none;
   }
+  .btn-padding{
+    margin-left: -70px;
+  }
 }
 @media (max-width:600px)
 {
   .right-content
   {
-    width: 70vmax;
+    width: 60vmax;
+    height: 40%;
   }
   .description
   {
@@ -435,6 +440,10 @@ body {
   {
     flex-direction: column-reverse;
     gap: 5px;
+  }
+  .professions
+  {
+    font-size: 1.2em;
   }
   @keyframes heroimg
 {
@@ -449,7 +458,6 @@ body {
   
 }
 
-  
 }
 
 .about-container
